@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/zyzicon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -18,7 +18,11 @@
         </activity>
         <activity
             android:name=".FirstActivity"
-            android:label="@string/title_activity_first"></activity>
+            android:label="志愿服务助手" />
+        <activity android:name=".NewServiceLogActivity"
+            android:label="新建服务记录">
+
+        </activity>
     </application>
 
 </manifest>
