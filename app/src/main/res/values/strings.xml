@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">志愿者助手</string>
-    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_first">志愿者助手</string>
+    <string name="title_activity_NewServiceLog">新建服务</string>
     <string name="action_settings">Settings</string>
 </resources>

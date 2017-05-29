@@ -18,9 +18,9 @@
         </activity>
         <activity
             android:name=".FirstActivity"
-            android:label="志愿服务助手" />
+            android:label="@string/app_name"/>
         <activity android:name=".NewServiceLogActivity"
-            android:label="新建服务记录">
+            android:label="新建服务">
 
         </activity>
     </application>
