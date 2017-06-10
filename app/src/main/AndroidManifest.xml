@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +23,8 @@
             android:name=".FirstActivity"
             android:label="@string/app_name"/>
         <activity android:name=".NewServiceLogActivity"
-            android:label="新建服务">
+            android:label="新建服务"
+            >
 
         </activity>
     </application>
