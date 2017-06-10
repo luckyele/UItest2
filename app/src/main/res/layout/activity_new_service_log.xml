@@ -65,12 +65,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="服务人数：" />
-        <EditText
+
+        <NumberPicker
             android:id="@+id/service_people_num"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="这里填写服务人数."/>
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="">
+
+        </NumberPicker>
     </LinearLayout>
 
     <LinearLayout
@@ -117,11 +119,11 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <ListView
-            android:id="@+id/list_img1"
-            android:layout_width="wrap_content"
-            android:layout_height="120dp"
-            android:animateLayoutChanges="true" />
+        <ImageView android:id="@+id/list_img1"
+           android:layout_width="120dip"
+           android:layout_height="120dip"
+           android:layout_gravity="center_horizontal"/>
+
     </LinearLayout>
 
     <LinearLayout
